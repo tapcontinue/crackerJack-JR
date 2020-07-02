@@ -1,7 +1,7 @@
 import re
 
 file_in = open("Copyrights.txt", "rt", newline="\n")
-file_out = open("copyright.haml", "wt")
+file_out = open("copyright.txt", "wt")
 
 
 oldStrings = (
@@ -19,7 +19,9 @@ oldStrings = (
 "�re",
 "�ll",
 "�&#169; ",
-"O�"
+"O�",
+"�LL",
+"�M",
 )
 
 newStrings = (
@@ -37,7 +39,9 @@ newStrings = (
 "'re",
 "'ll",
 " &#160;&#160; ",
-"O'"
+"O'",
+"'LL",
+"'M",
 )
 
 for line in file_in:
