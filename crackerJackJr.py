@@ -22,6 +22,8 @@ oldStrings = (
 "O�",
 "�LL",
 "�M",
+"�s",
+"�S",
 )
 
 newStrings = (
@@ -42,6 +44,8 @@ newStrings = (
 "O'",
 "'LL",
 "'M",
+"'s",
+"'S",
 )
 
 for line in file_in:
